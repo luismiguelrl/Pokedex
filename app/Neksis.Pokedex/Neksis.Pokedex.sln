@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Distribution Service", "3 Distribution Service", "{1FC6CA80-94A3-44FC-9D7A-4200A19C93DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Neksis.Pokedex.Pokemon", "Neksis.Pokedex.Pokemon\Neksis.Pokedex.Pokemon.csproj", "{125F5249-C73E-47A5-A43B-7C778E1ED060}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Presentation", "1 Presentation", "{3BD36F88-39AB-4D69-AFD7-46B9BC4D938C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{125F5249-C73E-47A5-A43B-7C778E1ED060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125F5249-C73E-47A5-A43B-7C778E1ED060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125F5249-C73E-47A5-A43B-7C778E1ED060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125F5249-C73E-47A5-A43B-7C778E1ED060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{125F5249-C73E-47A5-A43B-7C778E1ED060} = {1FC6CA80-94A3-44FC-9D7A-4200A19C93DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EB1EAED-F159-4BA6-B83C-D47F59097E91}
+	EndGlobalSection
+EndGlobal

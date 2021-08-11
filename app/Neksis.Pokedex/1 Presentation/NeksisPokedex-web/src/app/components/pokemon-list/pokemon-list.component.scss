@@ -1,0 +1,21 @@
+table {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link:hover {
+  color: #1976d2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img{
+  max-width: 45px;
+  max-height: 45px;
+}

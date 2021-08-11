@@ -1,0 +1,25 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{pokemon.name.english}}</mat-card-title>
+    <mat-card-subtitle> <span>Id: </span> {{pokemon.id}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/{{pokemon?.idImage}}" alt="pokemon">
+  <mat-card-content>
+    <ul>
+      <li><span>HP: </span> {{pokemon.base.hp}}</li>
+      <li><span>Attack: </span>{{pokemon.base.attack}}</li>
+      <li><span>Defense: </span>{{pokemon.base.defense}}</li>
+      <li><span>SP Attack: </span>{{pokemon.base.spattack}}</li>
+      <li><span>SP Defense: </span>{{pokemon.base.spdefense}}</li>
+      <li><span>Speed: </span>{{pokemon.base.speed}}</li>
+    </ul>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button [routerLink]="">Back</button>
+  </mat-card-actions>
+</mat-card>
+<!--
+<figure>
+  <img src="{{pokemon?.image}}" alt="">
+</figure> -->

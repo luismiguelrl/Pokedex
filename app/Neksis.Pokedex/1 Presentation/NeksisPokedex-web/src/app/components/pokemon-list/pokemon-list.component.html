@@ -1,0 +1,26 @@
+<div>
+
+</div>
+<table>
+  <tr>
+    <!-- Id -->
+    <th>{{displayedColumns[0]}}</th>
+    <!-- Name -->
+    <th>{{displayedColumns[1]}}</th>
+    <!-- Image -->
+    <th>{{displayedColumns[2]}}</th>
+    <!-- Type -->
+    <th>{{displayedColumns[3]}}</th>
+  </tr>
+  <tr *ngFor="let pokemon of pokemons; let i = index">
+    <td class="link" [routerLink]="pokemon.id">{{pokemon.id}}</td>
+    <td class="link" [routerLink]="pokemon.id">{{pokemon.name.english}}</td>
+    <td>
+      <figure>
+        <img src="https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/images/{{pokemon?.idImage}}" alt="">
+      </figure>
+    <td>
+      ...
+    </td>
+  </tr>
+</table>
